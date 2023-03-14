@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizzeria</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		 <div class="container">
+            <div class="row"> 
+               
+                <div class="four columns">
+               	    <h1>La Casona de la Pizza</h1>
+                </div>
+                <div class="two columns u-pull-right">
+               	    <ul>
+               	   	    <li class="submenu">
+               	   		    <img src="img/cart.png" width="80"> 
+               	  		    <div id="carrito">
+               	  			     <p class="vacio">carrito vacio</p>
+               	  			     <table class="u-full-width">
+               	  				     <thead>
+               	  					     <tr>
+               	  						    <th>Imagen</th>
+               	  						    <th>Products</th>
+               	  						    <th>Precio</th>
+               	  					     </tr>
+               	  				     </thead>
+               	  				     <tbody>
+               	  				     	 <tr>
+               	  				     	     <td>
+               	  				     		    <img src="img/product1.jpg" width="100">
+               	  				     	     </td>
+               	  				             <td>Pc gamer</td>
+               	  				             <td>$15</td>
+               	  				   	         <td><a hreft="#" class="borrar-product">x</a></td>
+               	  				         </tr>
+               	  				         <tr>
+               	  				     	     <td>
+               	  				     		    <img src="img/products.jpg" width="100">
+               	  				     	     </td>
+               	  				             <td>Pc Gamer Sencilla</td>
+               	  				             <td>$15</td>
+               	  				   	         <td><a hreft="#" class="borrar-product">x</a></td>
+               	  				         </tr>
+               	  				     </tbody>
+               	  			     </table>
+               	  			     <a href="#" class="button u-full-width">vaciar carrito</a>
+               	  		     </div>
+               	  	     </li>
+               	    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+               <div class="six columns">
+               	  <div class="contenido-hero">
+               	  	  <h2>Pide un pedido</h2>
+               	  	  <p>Todos los pedidos con descuento</p>
+               	  	  <form>
+               	  	  	  <input class="u-full-width" type="text" placeholder="¿ Que te gustaria comprar ?" id="buscador">
+               	  	  	  <input type="submit" class="submit-buscador">
+               	  	  </form>
+               	  </div>
+               </div>    
+            </div>
+        </div>
+    </div>
+
+   <div class="barra">
+   	  <div class="container">
+   	  	 <div class=" row">
+   	  	 	<div class="four columns icono icono1">
+   	  	 		  <p>100 productos diferentes<br>
+   	  	 		   Explora los nuevos productos</p>
+   	  	 	   </div>
+   	  	 	   <div class="four columns icono icono2">
+   	  	 		  <p>Expertos<br>
+   	  	 		   Prueba las nuevas conbinaciones</p>
+   	  	 	   </div>
+   	  	 	   <div class="four columns icono icono3">
+   	  	 		  <p>Envio<br>
+   	  	 		   $19.99 hasta tu casa</p>
+   	  	 	   </div>
+   	  	    </div>
+   	    </div>
+    </div>
+
+    <div class="lista de products" class="container">
+        <h1 class="encabezando">Pedidos en linea</h1>
+        <div class="row">
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product1.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza chica:4 rebanadas</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$130<span class="u-pull-right">$99.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	    </div>
+       	  	     <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product2.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Mediana: 8 Rebanada : 2 Especialidades</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$200<span class="u-pull-right">$184.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	        </div>
+       	         <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product3.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Grande: 12 Rebenadas: 2 Especialidades</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$230.00<span class="u-pull-right">$199.29</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	    </div>
+            </div>
+             <div class="row">
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product4.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Jumbo: 16 Rebenadas: 3 Especialidades</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$300.00<span class="u-pull-right">$259.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	    </div>
+       	  	     <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product5.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Mega: 35 Rebenadas: 4 Especialidades</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$450.00<span class="u-pull-right">$374.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	   </div>
+       	    </div>
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product1.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Chica: 4 Rebanadas</h4>
+       	  	 	    		<p>Envio desde: $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$130<span class="u-pull-right">$99.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	  </div>
+        </div> 
+        <div class="row">
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product2.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Mediana: 8 Rebanada : 2 Especialidades</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$200<span class="u-pull-right">$184.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	    </div>
+       	  	     <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product3.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Grande: 12 Rebenadas: 2 Especialidades</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$230<span class="u-pull-right">$199.29</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	   </div>
+       	    </div>
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product4.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Jumbo: 16 Rebenadas: 3 Especialidades</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$300<span class="u-pull-right">$159.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	  </div>
+        </div> 
+        <div class="row">
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product5.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Mega: 35 Rebenadas: 4 Especialidades</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$450<span class="u-pull-right">$374.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	  	    </div>
+       	  	     <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product2.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Chica: 4 Rebanadas</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$130<span class="u-pull-right">$99.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	   </div>
+       	    </div>
+       	    <div class="four columns">
+       	  	    <div class="card">
+       	  	 	     <img src="img/product3.jpg" class="u-full-width">
+       	  	 	     <div class="info-card">
+       	  	 	    		<h4>Pizza Mediana: 8 Rebanada : 2 Especialidades</h4>
+       	  	 	    		<p>Envio desde $19.99</p>
+       	  	 	    		<img src="img/estrellas.png">
+       	  	 	    		<p class="precio">$200<span class="u-pull-right">$184.99</span>
+       	  	 	    		<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar alcarrito</a>
+       	  	 	    	</div>
+       	  	 	    </div>
+       	      </div>
+        </div> 
+    </div> 
+
+    <fonter class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="four columns">
+    				<nav class="menu">
+    					<a class="enlace" href="#">Pedidos a domicilio</a>
+    					<a class="enlace" href="#">Pedidos en linea</a>
+    					<a class="enlace" href="#">Pedidos por telefono</a>
+    					<a class="enlace" href="#">Pedidos Menu</a>
+    					<a class="enlace" href="#">Componentes</a>
+    				</nav>
+    			</div>
+    			<div class="four columns">
+    				<nav class="menu">
+    					<a class="enlace" href="#">Fabrica</a>
+    					<a class="enlace" href="#">Ubicacion</a>
+    					<a class="enlace" href="#">9171061240</a>
+    				</nav>
+    			</div>
+    		</div>
+    	</div>
+    </fonter>
+
+</body>
+</html>
